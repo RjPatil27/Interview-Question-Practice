@@ -3,7 +3,7 @@ This repo is for practicing Interview Question and notes.
 
 # COMPLEXITY
 
-Complexity of code is depends upon many factors but for interview perspective, we will check only input factors in code.
+Complexity of code is depends upon many factors but for interview perspective, we will check only input factors in code. \b
 
-Calculate time for each statement in code.
+Calculate time for each statement in code. \b
 For Arithmatic, Logical, Assignment, return statement takes one unit of time. 
