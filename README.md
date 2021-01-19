@@ -4,8 +4,12 @@ This repo is for practicing Interview Question and notes.
 
 Complexity of code is depends upon many factors but for interview perspective, we will check only input factors in code. \
 Calculate time for each statement in code. \
-For Arithmatic, Logical, Assignment, return statement takes one unit of time. \
-Example, 
+For Arithmatic, Logical, Assignment, return statement takes one unit of time. 
+
+# Calculate Running Time
+
+Understanding by Example
+Example,
 
 ```
 return a+b;
@@ -20,3 +24,4 @@ Sum(list,len(list)):
           total = total + list[i]
      return total
 ```
+--> 
