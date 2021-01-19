@@ -13,3 +13,10 @@ return a+b;
 -->  above statement has two factors one is return and second is a+b, So both will execute one time each irrespective of input variables. \
      In this case, T(n) = 2 always which is constant function.
 
+```
+Sum(list,Sizeoflist):
+     total = 0
+     for i = 0 to sizeoflist:
+          total = total + list[i]
+     return total
+```
