@@ -11,7 +11,7 @@ For Arithmatic, Logical, Assignment, return statement takes one unit of time.
 Understanding by Example
 Example,
 
-```
+```python
 return a+b;
 ```
 -->  above statement has two factors one is return and second is a+b, So both will execute one time each irrespective of input variables. \
