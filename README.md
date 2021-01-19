@@ -1,4 +1,4 @@
-# Interview-Question-Practise
+# Interview-Question-Practice
 This repo is for practicing Interview Question and notes. 
 # COMPLEXITY
 
