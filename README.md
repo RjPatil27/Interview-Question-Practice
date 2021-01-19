@@ -14,9 +14,9 @@ return a+b;
      In this case, T(n) = 2 always which is constant function.
 
 ```
-Sum(list,Sizeoflist):
+Sum(list,len(list)):
      total = 0
-     for i = 0 to sizeoflist:
+     for i = 0 to len(list):
           total = total + list[i]
      return total
 ```
