@@ -43,8 +43,10 @@ Sum(list,len(list)):
      In this case, Runnig time depends upon Input.
 
 ## ASYMPTOTIC NOTATION
+Types : Theta, Omega, Big-O Notation
 
 ## SPACE COMPLEXITY
 
 
 # * DATA STRUCTURE AND ALGORITHM
+
