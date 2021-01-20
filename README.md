@@ -74,12 +74,40 @@ NumberList[0]
 ```python
 NumberList.append("Five")
 
-OP -> ['One', 'Two', 'Three', 'Four', 'Five']
+#OP -> ['One', 'Two', 'Three', 'Four', 'Five']
 
 #extend() function is used to add multiple elements in array. It only takes one elements as input.
 NumberList.extend(["Six","Seven"])      
 
-OP -> ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven']
+#OP -> ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven']
 ```
 
-3) 
+3) To remove elements from array 
+```python
+NumberList.remove("Five")
+
+#OP -> ['One', 'Two', 'Three', 'Four', 'Six', 'Seven']
+
+NumberList.pop(3)
+
+#OP -> 'Four'
+```
+
+4) To print length of array
+```python
+len(NumberList)
+
+OP -> 5
+```
+
+5) Iteration
+```python
+for i in NumberList:
+     print(i)
+     
+OP -> One
+     Two
+     Three
+     Six
+     Seven
+```
