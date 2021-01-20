@@ -67,7 +67,19 @@ Operation on Array :
 ```python
 NumberList[0]
 
-#O/P -> 'One' 
+#OP -> 'One' 
 ```
 
-2) 
+2) To Concate or add value in array 
+```python
+NumberList.append("Five")
+
+OP -> ['One', 'Two', 'Three', 'Four', 'Five']
+
+#extend() function is used to add multiple elements in array. It only takes one elements as input.
+NumberList.extend(["Six","Seven"])      
+
+OP -> ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven']
+```
+
+3) 
