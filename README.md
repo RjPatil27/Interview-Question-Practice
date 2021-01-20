@@ -57,5 +57,6 @@ Array declaration and operation you can perform on array.
 #Array declaration and operation you can perform on array
 #List is mostly used in python bcoz it can store various type/datatype of variable.
 #Array can store only single datatype of variable
+
 NumberList = ["One","Two","Three","Four"]
 ```
