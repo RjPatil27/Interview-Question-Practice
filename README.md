@@ -1,7 +1,7 @@
-# Interview-Question-Practice
+# * Interview-Question-Practice
 This repo is for practicing Interview Question and notes. 
 
-# BASIC UNDERSTANDING 
+# * BASIC UNDERSTANDING 
 
 ## COMPLEXITY
 
