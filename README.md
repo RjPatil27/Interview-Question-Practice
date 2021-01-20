@@ -60,3 +60,14 @@ Array declaration and operation you can perform on array.
 
 NumberList = ["One","Two","Three","Four"]
 ```
+
+Operation on Array :
+
+1) To get an Index value 
+```python
+NumberList[0]
+
+#O/P -> 'One' 
+```
+
+2) 
