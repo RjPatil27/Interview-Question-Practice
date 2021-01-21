@@ -35,12 +35,14 @@ Sum(list,len(list)):
        similarly this instruction will execute in n times because we are adding all the elements from list to total variable. \
      * Fourth is **return total**, this instruction will execute in 1 unit of time. 
      
-     So, Total running time would be,
-     ```
-     T(n) = (1 + 2 * (n+1) + 2 * n + 1) = (2 + 2n + 2 + 2n) = (4n + 4)
+   So, Total running time would be,
+```python
+T(n) = (1 + 2 * (n+1) + 2 * n + 1) = (2 + 2n + 2 + 2n) = (4n + 4)
     
-     ```
-     In this case, Runnig time depends upon Input.
+```
+     
+     
+   In this case, Runnig time depends upon Input.
 
 ## ASYMPTOTIC NOTATION
 Types : Theta, Omega, Big-O Notation
