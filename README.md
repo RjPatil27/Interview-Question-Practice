@@ -1,12 +1,12 @@
 # * Interview-Question-Practice
-This repo is for practicing Interview Question and notes. 
+This repo is for a practicing Interview Question and notes. 
 
 # * BASIC UNDERSTANDING 
 
 ## COMPLEXITY
 
-Complexity of code is depends upon many factors but for interview perspective, we will check only input factors in code. \
-Calculate time for each statement in code. \
+Complexity of code is depends upon many factors but for the interview perspective, we will check only input factors in the code. \
+Calculate time for each statement in the code. \
 For Arithmatic, Logical, Assignment, return statement takes one unit of time. 
 
 ## Calculate Running Time
@@ -126,5 +126,14 @@ OP -> ['One', 'Two', 'Three', 'Six', 'Seven']
 NumberList.reverse()
 print(NumberList)
 OP -> ['Seven', 'Six', 'Three', 'Two', 'One']
+```
+
+8) To sort an array
+```python
+Number = [4,5,1,6,8]
+Number.sort()
+print(Number)
+
+OP -> [1,4,5,6,8]
 ```
 
