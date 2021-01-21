@@ -111,3 +111,18 @@ OP -> One
      Six
      Seven
 ```
+
+6) To copy an array
+```python
+NumberList.copy()
+
+OP -> ['One', 'Two', 'Three', 'Six', 'Seven']
+```
+
+7) To reverse the order list in array 
+```python
+NumberList.reverse()
+print(NumberList)
+OP -> ['Seven', 'Six', 'Three', 'Two', 'One']
+```
+
