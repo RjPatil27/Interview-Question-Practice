@@ -167,9 +167,9 @@ print(type(ThisList))
 #OP -> <class 'list'>
 ```
 
-3) list() constructer
+3) list() constructor
 
-we can also use list() constructer to create list
+we can also use list() constructor to create list
 
 ```python
 ThisList3 = list((1,2,3,"four"))
@@ -177,3 +177,32 @@ print(ThisList3)
 
 #OP -> [1,2,3,"four"]
 '''
+
+4) Access item from list
+
+```python
+#Positive Indexing : start from the start
+print(ThisList[2])
+
+#OP -> Three
+
+#Negative Indexing : start from the end
+print(ThisList[-1])
+
+#OP -> Four
+
+#Accessing item using range of elements 
+print(ThisList[1:3])          #start index item included and last index not.
+
+#OP -> ["Two","Three"] 
+
+print(ThisList[:3])           #[:3] will start from the start upto index 3 but not included.
+
+#OP -> ["One","Two","Three"]
+
+print(ThisList[1:])           #[1:] include elements from start given indec(included) upto last index element
+
+#OP -> ["Two","Three","Four"]      
+```
+
+5) 
