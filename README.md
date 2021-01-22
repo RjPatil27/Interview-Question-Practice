@@ -205,4 +205,11 @@ print(ThisList[:3])           #[:3] will start from the start upto index 3 but n
 print(ThisList[1:])           #[1:] include elements from start given indec(included) upto last index element
 
 #OP -> ["Two","Three","Four"]      
+
+print(ThisList[-4:-2])        #[-4:-2]Negative Indexing : Includes First index element upto not including last index element
+
+#OP -> ["One","Two"]
+
 ```
+
+5) Check if Item Exists in list
