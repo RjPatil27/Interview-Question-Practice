@@ -140,7 +140,7 @@ OP -> [1,4,5,6,8]
 ## List 
 
 List is used to store multiple item in a single variable.
-List can contain item with multiplt datatype too.
+List can contain item with multiplt datatype too (string, int, boolean, float, etc).
 
 ```python
 #List
@@ -149,3 +149,31 @@ ThisList = ["One","Two","Three","Four"]      #single datatype
 ThisList2 = ["One",2,3,"Four",True]          #multiple datatype
 
 ```
+Operation on List :
+
+1) Length of List 
+```python
+print(len(ThisList))
+
+#OP -> 4
+```
+
+2) Type 
+list are defined as a object with datatype 'list'.
+
+```python
+print(type(ThisList))
+
+#OP -> <class 'list'>
+```
+
+3) list() constructer
+
+we can also use list() constructer to create list
+
+```python
+ThisList3 = list((1,2,3,"four"))
+print(ThisList3)
+
+#OP -> [1,2,3,"four"]
+'''
