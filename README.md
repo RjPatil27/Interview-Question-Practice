@@ -213,3 +213,11 @@ print(ThisList[-4:-2])        #[-4:-2]Negative Indexing : Includes First index e
 ```
 
 5) Check if Item Exists in list
+
+```python
+if "Two" in ThisList:
+     print("Yes, 'Two' is in list")
+
+#OP -> Yes, 'Two' is in list
+```
+
