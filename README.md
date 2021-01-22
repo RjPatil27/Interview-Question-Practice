@@ -178,6 +178,8 @@ print(ThisList3)
 #OP -> [1,2,3,"four"]
 '''
 
+```
+
 4) Access item from list
 
 ```python
@@ -204,5 +206,3 @@ print(ThisList[1:])           #[1:] include elements from start given indec(incl
 
 #OP -> ["Two","Three","Four"]      
 ```
-
-5) 
