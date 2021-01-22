@@ -137,3 +137,15 @@ print(Number)
 OP -> [1,4,5,6,8]
 ```
 
+## List 
+
+List is used to store multiple item in a single variable.
+List can contain item with multiplt datatype too.
+
+```python
+#List
+
+ThisList = ["One","Two","Three","Four"]      #single datatype
+ThisList2 = ["One",2,3,"Four",True]          #multiple datatype
+
+```
