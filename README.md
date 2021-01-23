@@ -303,7 +303,7 @@ print(ThisList)
 ```
 
 ```python
-# del keyword delets specified index element
+# del keyword deletes specified index element
 ThisList = ["One","Two","Three","Four"]
 del ThisList[1]
 print(ThisList)
