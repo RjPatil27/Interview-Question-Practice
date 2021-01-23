@@ -230,3 +230,21 @@ print(ThisList)
 
 #OP -> ['Zero', 'Two', 'Three', 'Four']
 ```
+
+```python
+#Change Item value using range 
+ThisList[1:2] = ["One","Two"]
+print(ThisList)
+
+#OP -> ['Zero', 'One', 'Two', 'Three', 'Four']
+```
+
+```python
+#Replacing multiple value with only one item using range 
+ThisList3 = ['Zero', 'One', 'Two', 'Three', 'Four']
+ThisList3[1:3] = ["Five"]
+
+#OP -> ['Zero', 'Five', 'Four']
+```
+
+7) 
