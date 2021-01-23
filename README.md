@@ -247,4 +247,75 @@ ThisList3[1:3] = ["Five"]
 #OP -> ['Zero', 'Five', 'Four']
 ```
 
-7) 
+7) Insert Item Value - insert()
+to insert a new value without replacing any of the existing value.
+
+```python
+ThisList.insert(5,"Five")
+print(ThisList)
+
+#OP -> ['Zero', 'One', 'Two', 'Three', 'Four', 'Five']
+```
+
+8) Add list items - append()
+
+```python
+ThisList = ['Zero', 'One', 'Two', 'Three', 'Four']
+ThisList.append("Five")
+
+#OP -> ['Zero', 'One', 'Two', 'Three', 'Four', 'Five']
+```
+
+9) Add any iterable - extend() 
+The extend() method does not have to append list, you can also append any iterable objects like tuple, dictionaries, sets.
+
+```python
+ThisList = ["One","Two","Three"]
+ThisTuple = ("Abra", "Dabra")
+ThisList.extend(ThisTuple)
+print(ThisList)
+
+#OP -> ["One","Two","Three","Abra","Dabra"]
+```
+
+10) Remove list item - remove(), pop(), del keyword, clear() 
+
+```python
+ThisList.remove("Abra")            #takes one argument value
+print(ThisList)
+
+#OP -> ["One","Two","Three","Dabra"]
+```
+
+```python
+ThisList.pop(3)          #takes index value as argument
+print(ThisList)
+
+#OP -> ["One","Two","Three"]
+```
+
+```python
+#if you do not specify index value, pop() method will remove last item of the list.
+ThisList.pop()
+print(ThisList)
+
+#OP -> ["One","Two"]
+```
+
+```python
+# del keyword delets specified index element
+ThisList = ["One","Two","Three","Four"]
+del ThisList[1]
+print(ThisList)
+
+#OP -> ["One","Three","Four"]
+```
+```python
+# clear() method empties the list
+ThisList = ["One","Two","Three","Four"]
+ThisList.clear()
+
+#OP -> []
+```
+
+11) Loop in List
