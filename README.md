@@ -221,3 +221,12 @@ if "Two" in ThisList:
 #OP -> Yes, 'Two' is in list
 ```
 
+6) Change Item Value 
+
+```python
+#Change Item value using Index
+ThisList[0] = "Zero"
+print(ThisList)
+
+#OP -> ['Zero', 'Two', 'Three', 'Four']
+```
