@@ -319,3 +319,39 @@ ThisList.clear()
 ```
 
 11) Loop in List
+
+```python
+#print list item one by one 
+
+ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
+for i in ThisList:
+    print(i)
+OP ->   Zero
+        One
+        Three
+        Four 
+        Five
+        
+#Loop Through index number
+for i in range(len(ThisList)):
+    print(ThisList[i])
+    
+OP ->   Zero
+        One
+        Three
+        Four 
+        Five
+
+#While Loop 
+ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
+i = 0 
+while i < len(ThisList):
+    print(ThisList[i])
+    i=i+1
+
+OP ->   Zero
+        One
+        Three
+        Four 
+        Five
+```
