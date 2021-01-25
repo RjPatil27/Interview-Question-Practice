@@ -326,7 +326,7 @@ ThisList.clear()
 ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
 for i in ThisList:
     print(i)
-OP ->   Zero
+#OP ->   Zero
         One
         Three
         Four 
@@ -336,7 +336,7 @@ OP ->   Zero
 for i in range(len(ThisList)):
     print(ThisList[i])
     
-OP ->   Zero
+#OP ->   Zero
         One
         Three
         Four 
@@ -349,7 +349,7 @@ while i < len(ThisList):
     print(ThisList[i])
     i=i+1
 
-OP ->   Zero
+#OP ->   Zero
         One
         Three
         Four 
@@ -358,9 +358,38 @@ OP ->   Zero
 #Looping through List Comprehension (short form of 'for' loop)
 [print(x) for x in ThisList]
 
-OP ->   Zero
+#OP ->   Zero
         One
         Three
         Four 
         Five
 ```
+
+12) List Comprehension 
+
+shorter syntax of code
+
+```python
+#Example :
+ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
+NewList = []
+for i in ThisList:
+    if 'o' in i:
+        print(i)
+        NewList.append(i)
+print(NewList)
+
+#OP -> Zero
+       Four
+       ['Zero', 'Four']
+       
+#Comprehension code for above example is 
+ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
+
+NewList = [i for i in ThisList if 'o' in i] 
+
+#OP -> ['Zero', 'Four']
+
+```
+
+13) 
