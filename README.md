@@ -392,4 +392,11 @@ NewList = [i for i in ThisList if 'o' in i]
 
 ```
 
-13) 
+13) Sort List
+
+```python
+ThisList.sort()
+print(ThisList)
+
+#OP -> ['Five', 'Four', 'One', 'Three', 'Zero']
+```
