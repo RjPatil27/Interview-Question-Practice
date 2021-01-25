@@ -354,4 +354,13 @@ OP ->   Zero
         Three
         Four 
         Five
+
+#Looping through List Comprehension (short form of 'for' loop)
+[print(x) for x in ThisList]
+
+OP ->   Zero
+        One
+        Three
+        Four 
+        Five
 ```
