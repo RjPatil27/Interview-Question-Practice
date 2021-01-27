@@ -413,9 +413,83 @@ print(ThisList)
 
 ```python
 #Case InSensitive Sorting
+#sort() method is case sensitive, Capital letter first sorted first and then lower letter
 ThisList4 = ["Zero","one","Two","three"]
 ThisList4.sort()
 print(ThisList4)
 
 #OP -> ['Two', 'Zero', 'one', 'three']
+```
+
+```python
+#We can also sort using built-in function
+ThisList4 = ["Zero","one","Two","three"]
+ThisList4.sort(key =  str.lower)
+print(ThisList4)
+
+#OP -> ['one', 'three', 'Two', 'Zero']
+```
+
+```python
+#reverse() method regardless of alphabet
+ThisList4 = ["one", "three", "Two", "Zero"]
+ThisList4.reverse()
+print(ThisList4)
+
+#OP -> ['Zero', 'Two', 'three', 'one']
+```
+
+14) Copying a list - copy() method
+We cannot copy a list in python as List1 = List2, because List2 will only be reference as List1. So, all the changes made in List1 will be made into List2.
+There are few methods by which we can copy list.
+
+```python
+#copy() method
+ThisList5 = ThisList4.copy()
+print(ThisList5)
+
+#OP -> ['Zero', 'Two', 'three', 'one']
+```
+
+```python
+#making a copy of list using a list() method
+ThisList5 = list(ThisList4)
+print(ThisList5)
+
+#OP -> ['Zero', 'Two', 'three', 'one']
+```
+
+15) Join Multiple lists to each other
+
+```python
+#Concate method using + operator 
+ThisList = ["One","Two"]
+ThisList1 = ["Three","Four"]
+ThisList2 = ThisList + ThisList1
+print(ThisList2)
+
+#OP -> ['One','Two','Three','Four']
+
+```
+```python
+#append() two list
+ThisList = ["One","Two"]
+ThisList1 = ["Three","Four"]
+
+for x in ThisList1:
+     ThisList.append(ThisList1)
+print(ThisList1)
+
+#OP -> ['One','Two','Three','Four']
+```
+
+```python
+#extend() method
+ThisList = ["One","Two"]
+ThisList1 = ["Three","Four"]
+ThisList.extend(ThisList1)
+print(ThisList)
+
+#OP -> ['One','Two','Three','Four']
+
 ```
