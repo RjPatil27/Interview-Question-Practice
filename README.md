@@ -402,7 +402,7 @@ print(ThisList)
 ```
 
 ```python
-#sort descending 
+#sort in descending order
 ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
 ThisList.sort(reverse = True)
 print(ThisList)
