@@ -400,3 +400,13 @@ print(ThisList)
 
 #OP -> ['Five', 'Four', 'One', 'Three', 'Zero']
 ```
+
+```python
+#sort descending 
+ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
+ThisList.sort(reverse = True)
+print(ThisList)
+
+#OP -> ['Zero', 'Three', 'One', 'Four', 'Five']
+
+```
