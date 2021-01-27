@@ -392,7 +392,7 @@ NewList = [i for i in ThisList if 'o' in i]
 
 ```
 
-13) Sort List
+13) Sort List - sort() method
 
 ```python
 ThisList.sort()
