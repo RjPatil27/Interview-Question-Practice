@@ -410,3 +410,12 @@ print(ThisList)
 #OP -> ['Zero', 'Three', 'One', 'Four', 'Five']
 
 ```
+
+```python
+#Case InSensitive Sorting
+ThisList4 = ["Zero","one","Two","three"]
+ThisList4.sort()
+print(ThisList4)
+
+#OP -> ['Two', 'Zero', 'one', 'three']
+```
