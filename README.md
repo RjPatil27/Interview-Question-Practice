@@ -493,3 +493,6 @@ print(ThisList)
 #OP -> ['One','Two','Three','Four']
 
 ```
+
+
+* ALGORITHM 
