@@ -496,3 +496,9 @@ print(ThisList)
 
 
 * ALGORITHM 
+
+
+1) Sorting Algorithm 
+
+Sorting Algorithm is used to rearrange a list or array as per the need of problem.
+
