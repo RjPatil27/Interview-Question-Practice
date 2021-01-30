@@ -500,5 +500,5 @@ print(ThisList)
 
 1) Sorting Algorithm 
 
-Sorting Algorithm is used to rearrange a list or array as per the need of problem.
+Sorting Algorithm is used to rearrange a list or array as per the need of the problem.
 
