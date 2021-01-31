@@ -101,7 +101,7 @@ NumberList.pop(3)
 ```python
 len(NumberList)
 
-OP -> 5
+#OP -> 5
 ```
 
 5) Iteration
@@ -109,7 +109,7 @@ OP -> 5
 for i in NumberList:
      print(i)
      
-OP -> One
+#OP -> One
      Two
      Three
      Six
@@ -120,14 +120,14 @@ OP -> One
 ```python
 NumberList.copy()
 
-OP -> ['One', 'Two', 'Three', 'Six', 'Seven']
+#OP -> ['One', 'Two', 'Three', 'Six', 'Seven']
 ```
 
 7) To reverse the order list in array 
 ```python
 NumberList.reverse()
 print(NumberList)
-OP -> ['Seven', 'Six', 'Three', 'Two', 'One']
+#OP -> ['Seven', 'Six', 'Three', 'Two', 'One']
 ```
 
 8) To sort an array
@@ -136,7 +136,7 @@ Number = [4,5,1,6,8]
 Number.sort()
 print(Number)
 
-OP -> [1,4,5,6,8]
+#OP -> [1,4,5,6,8]
 ```
 
 ## List 
@@ -189,25 +189,30 @@ print(ThisList3)
 print(ThisList[2])
 
 #OP -> Three
-
+```
+```python
 #Negative Indexing : start from the end
 print(ThisList[-1])
 
 #OP -> Four
-
+```
+```python
 #Accessing item using range of elements 
 print(ThisList[1:3])          #start index item included and last index not.
 
 #OP -> ["Two","Three"] 
-
+```
+```python
 print(ThisList[:3])           #[:3] will start from the start upto index 3 but not included.
 
 #OP -> ["One","Two","Three"]
-
+```
+```python
 print(ThisList[1:])           #[1:] include elements from start given indec(included) upto last index element
 
 #OP -> ["Two","Three","Four"]      
-
+```
+```python
 print(ThisList[-4:-2])        #[-4:-2]Negative Indexing : Includes First index element upto not including last index element
 
 #OP -> ["One","Two"]
