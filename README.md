@@ -77,7 +77,8 @@ NumberList[0]
 NumberList.append("Five")
 
 #OP -> ['One', 'Two', 'Three', 'Four', 'Five']
-
+```
+```python
 #extend() function is used to add multiple elements in array. It only takes one elements as input.
 NumberList.extend(["Six","Seven"])      
 
