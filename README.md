@@ -337,7 +337,8 @@ for i in ThisList:
         Three
         Four 
         Five
-        
+```
+```python
 #Loop Through index number
 for i in range(len(ThisList)):
     print(ThisList[i])
@@ -347,7 +348,8 @@ for i in range(len(ThisList)):
         Three
         Four 
         Five
-
+```
+```python
 #While Loop 
 ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
 i = 0 
