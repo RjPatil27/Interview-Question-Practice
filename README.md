@@ -178,7 +178,6 @@ ThisList3 = list((1,2,3,"four"))
 print(ThisList3)
 
 #OP -> [1,2,3,"four"]
-'''
 
 ```
 
