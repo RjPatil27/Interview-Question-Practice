@@ -1,4 +1,4 @@
-```
+'''
 Input: nums = [12,345,2,6,7896]
 Output: 2
 Explanation: 
@@ -14,7 +14,7 @@ Constraints:
 1 <= nums.length <= 500
 1 <= nums[i] <= 10^5
 
-```
+'''
 
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
