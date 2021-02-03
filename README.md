@@ -362,7 +362,8 @@ while i < len(ThisList):
         Three
         Four 
         Five
-
+```
+```python
 #Looping through List Comprehension (short form of 'for' loop)
 [print(x) for x in ThisList]
 
@@ -390,7 +391,8 @@ print(NewList)
 #OP -> Zero
        Four
        ['Zero', 'Four']
-       
+```
+```python
 #Comprehension code for above example is 
 ThisList = ['Zero', 'One', 'Three', 'Four', 'Five']
 
