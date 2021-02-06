@@ -21,14 +21,19 @@ class Solution:
         j = 0
         #Duplicate main array into another array so that we can avoid out of index array error
         arr2 = [i for i in arr]
-
+        
+        #use while loop becasue iterations are unkown.
         while i<len(arr):
+            #if condition to check whether first element in copied array is 0 or not. 
+            #if its 0 then we can make output as [0,0] using below code
             if not arr2[j]:
                 arr[i] = 0
                 i=i+1
                 if(i<len(arr)):
                     arr[i]=0
+            #else condition is for all the other elements except 0.
             else:
                 arr[i]=arr2[j]
+            #increamenting index so that we can add all other element into the array and last elements gets poped out.
             i = i+1
             j = j+1
