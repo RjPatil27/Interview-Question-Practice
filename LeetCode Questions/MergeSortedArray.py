@@ -18,3 +18,19 @@ nums2.length == n
 1 <= m + n <= 200
 -10^9 <= nums1[i], nums2[i] <= 10^9
 '''
+
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        newarr = []
+        for i in range(0,len(nums1)):
+            if(i<m):
+                newarr.append(nums1[i])
+            else:
+                newarr+=nums2
+                break
+        nums1.clear()
+        newarr.sort()
+        nums1+=newarr
