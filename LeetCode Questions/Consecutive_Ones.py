@@ -16,8 +16,10 @@ class Solution:
         count = 0
         result = 0
         for i in range(0,len(nums)):
+            #if loop to check nums[i] is zero or not.
             if(nums[i] == 0):
                 count = 0
+            #else find one's, increase a count by one and return max value between result and count.
             else:
                 count = count + 1
                 result = max(result,count)
