@@ -147,8 +147,8 @@ List can contain item with multiplt datatype too (string, int, boolean, float, e
 ```python
 #List
 
-ThisList = ["One","Two","Three","Four"]      #single datatype
-ThisList2 = ["One",2,3,"Four",True]          #multiple datatype
+ThisList = ["One","Two","Three","Four"]      # single type of datatype
+ThisList2 = ["One",2,3,"Four",True]          # multiple type of datatype
 
 ```
 Operation on List :
