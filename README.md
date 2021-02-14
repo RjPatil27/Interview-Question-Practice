@@ -184,13 +184,13 @@ print(ThisList3)
 4) Access item from list
 
 ```python
-#Positive Indexing : start from the start
+# Positive Indexing : start from the start
 print(ThisList[2])
 
 #OP -> Three
 ```
 ```python
-#Negative Indexing : start from the end
+# Negative Indexing : start from the end
 print(ThisList[-1])
 
 #OP -> Four
